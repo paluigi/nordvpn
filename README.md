@@ -1,3 +1,7 @@
+Forked from https://github.com/bubuntux/nordvpn
+I removed the ongoing check for the connection status, as I need to manage the VPN connection from another container for my use case. My goal is to change connection to different NordVPN servers in different countries depending on the operation I am doing, the ongoing check may interfer when I am rotating servers.
+
+
 <p align="center">
     <a href="https://nordvpn.com/"><img src="https://github.com/bubuntux/nordvpn/raw/master/.img/NordVpn_logo.png"/></a>
     </br>
